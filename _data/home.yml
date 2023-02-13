@@ -44,6 +44,8 @@ footer_entries:
 
   - title: Youtube 
     url: https://www.youtube.com/@zeey5475 
+  - title: Feed
+    url: feed.xml
 
 misc_entries:
   - title: this is an example vertical list
