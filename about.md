@@ -3,6 +3,9 @@ layout: post
 title: About
 ---
 
-This is an example page!
+Welcome to my channel! I hope you found something intersting from my posts. 
 
-Actually, it has the same layout of a post...
+Please follow my channel: 
+
+* [Youtue](https://www.youtube.com/@zeey5475)
+* [Twitter](https://twitter.com/ZeeyHow)

@@ -32,4 +32,5 @@ There are couple of learnings that I did't know unitl i tried the credit card ca
 3. It might hard your credit store, If you keep the  utility is high. My credit score already droped due to the cash advance, but not sure how will it impact my credit score in long run.  I will also keep update my credit score status. 
 
 Plese expect my coming montly posts about the investment.
-Follow me on Youtube and Facebook!
+
+Follow me on [Youtube](https://www.youtube.com/@zeey5475) and [Twitter](https://twitter.com/ZeeyHow) to check more!
