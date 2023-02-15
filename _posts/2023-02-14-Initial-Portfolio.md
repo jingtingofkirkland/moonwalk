@@ -12,7 +12,7 @@ I invested with [Fidelity](https://www.fidelity.com/), and here is my 3 funds se
 * FXNAX: $1800
 * Other international stock: $1700
 * NetValue: $10,000
-* Other: Cach Fee: $-300(-3%)
+* Other: Cash Out Fee: $-300(-3%)
 
 ## Next Step
 
