@@ -17,7 +17,7 @@ In some cases, an investor can choose to substitute an S&P 500 Index Fund in pla
 ### International Stocks
 For the international stocks, there are many total international stock index funds that one could use. I’ve invested in Vanguard’s Total International Stock Index Fund (VTIAX) for years. This fund invests in public companies headquartered outside of the United States, including in both developed countries (e.g., Germany and France)  and emerging markets (e.g., Brazil and China).
 
-###U.S. Bonds
+### U.S. Bonds
 For the bond portion of the portfolio, an index fund focused on U.S. bonds is typically used. For example, the Vanguard Total Bond Market Fund (VBTLX) would make an ideal investment for the three fund portfolio. This fund seeks to track the investment performance of the Bloomberg Barclays US Aggregate Float-Adjusted Index.  This index broadly tracks the government and investment-grade U.S. bond market.
 
 ## Is a 3-Fund Portfolio Diversified?
