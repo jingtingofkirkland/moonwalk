@@ -43,6 +43,8 @@ footer_entries:
     url: https://www.youtube.com/@zeey5475 
   - title: Feed
     url: feed.xml
+  - title: Subscript
+    url: thank-you
 
 misc_entries:
   - title: this is an example vertical list
