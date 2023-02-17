@@ -4,6 +4,8 @@ navbar_entries:
 
   - title: blog
     url: blog
+  - title: subscribe
+    url: subscribe
 
 project_entries:
   - title: Project 1
@@ -43,8 +45,8 @@ footer_entries:
     url: https://www.youtube.com/@zeey5475 
   - title: Feed
     url: feed.xml
-  - title: Subscript
-    url: thank-you
+  - title: Subscribe
+    url: subscribe
 
 misc_entries:
   - title: this is an example vertical list
