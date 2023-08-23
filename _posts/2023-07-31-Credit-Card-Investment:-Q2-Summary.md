@@ -58,12 +58,13 @@ I invested with [Fidelity](https://www.fidelity.com/), and here is my status of 
     <td> $-412.49 </td>
   </tr>
 </table>
+
 ### May
 <table style="width:100%">
   <tr>
     <th> Funds </th>
     <th> Initial Value/Unit price </th>
-    <th> Current Value (4/30) </th>
+    <th> Current Value (5/31) </th>
     <th> Dividend YTD </th>
     <th> Gain </th>
   </tr>
@@ -184,7 +185,7 @@ I invested with [Fidelity](https://www.fidelity.com/), and here is my status of 
   <tr>
     <th> Funds </th>
     <th> Initial Value/Unit price </th>
-    <th> Current Value (6/30) </th>
+    <th> Current Value (7/30) </th>
     <th> Dividend YTD </th>
     <th> Gain </th>
   </tr>
