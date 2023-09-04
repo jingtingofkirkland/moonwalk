@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 ## A Day Visit to Mount Rainer
 
 I had a wonderful day trip to Moout Rainer. 
