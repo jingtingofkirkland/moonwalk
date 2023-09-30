@@ -38,6 +38,8 @@ old_project_entries:
 
 footer_entries:
 
+  - title: Shares
+    url: share
   - title: Twitter
     url: https://twitter.com/ZeeyHow
 
