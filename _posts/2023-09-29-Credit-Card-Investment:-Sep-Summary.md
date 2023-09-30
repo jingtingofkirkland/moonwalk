@@ -2,9 +2,9 @@
 layout: post
 ---
 
-Hello everyone. Here is the August Status.
+Hello everyone. Here is this month's Status.
 ## Portfolio Status
-I invested with [Fidelity](https://www.fidelity.com/), and here is my status of investment for August
+I invested with [Fidelity](https://www.fidelity.com/), and here is my status of investment for This Month
 
 ### September
 
