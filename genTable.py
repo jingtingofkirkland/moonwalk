@@ -1,8 +1,8 @@
+#!/usr/local/bin/python3
 import requests
 import time
-from datetime import date
-
-
+from datetime import date, datetime
+import sys
 
 class Record:
     def __init__(self, name, initial_amount, current_amount, dividen_ytd, gain_loss, is_header=False):
@@ -124,8 +124,18 @@ def getPrice(code):
     return parse(data)
 
 if __name__ == "__main__":
+    current_epoch = None
+    today_date = None
+    if len(sys.argv) != 2:
+        # Get the current epoch timestamp in seconds
+        current_epoch = int(time.time())
+        today_date = date.today()
+    else:
+        date_string = sys.argv[1]
+        parsed_date = datetime.strptime(date_string, "%Y-%m-%d")
+        current_epoch = int(parsed_date.timestamp())
+        today_date = parsed_date.date()
     
-    today_date = date.today()
     # Get the current epoch timestamp in seconds
     current_epoch = int(time.time())
 
