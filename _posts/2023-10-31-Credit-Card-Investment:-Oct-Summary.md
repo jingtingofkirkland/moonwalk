@@ -6,7 +6,6 @@ layout: post
 
 Greetings, everyone! Here's the latest update on my investment portfolio for the month of October.
 
-### October 20th, 2023 Update
 ### October
 
 #### Oct/31 Update
