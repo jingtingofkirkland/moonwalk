@@ -97,7 +97,7 @@ class GenTable:
 def req(code):
     # API endpoint (replace with your endpoint)
     api_endpoint = f"https://query1.finance.yahoo.com/v7/finance/download/{code}?period1={one_day_ago}&period2={current_epoch}&interval=1d&events=history&includeAdjustedClose=true"
-
+    #print(api_endpoint)
     custom_headers = {
         "User-Agent": ""
     }
@@ -135,9 +135,6 @@ if __name__ == "__main__":
         parsed_date = datetime.strptime(date_string, "%Y-%m-%d")
         current_epoch = int(parsed_date.timestamp())
         today_date = parsed_date.date()
-    
-    # Get the current epoch timestamp in seconds
-    current_epoch = int(time.time())
 
     # Calculate the epoch timestamp for one day ago
     one_day_ago = current_epoch - 86400  # 86400 seconds in a day

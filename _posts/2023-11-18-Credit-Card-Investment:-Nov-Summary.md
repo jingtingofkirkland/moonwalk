@@ -9,7 +9,65 @@ Greetings, everyone! Here's the latest update on my investment portfolio for the
 
 ### Novmenber
 
-#### Nov/30 Update - TBD
+#### Nov/30 Update
+<table style="width:100%">
+  <tr>
+    <th> Funds </th>
+    <th> Initial Value/Unit price </th>
+    <th> Current Value (2023-11-30) </th>
+    <th> Dividend YTD </th>
+    <th> Gain </th>
+  </tr>
+  <tr>
+    <td> FXAIX </td>
+    <td> $5000.00/$142.71 </td>
+    <td> $5547.26/$158.33 </td>
+    <td> $39.94 </td>
+    <td> $587.20 </td>
+  </tr>
+  <tr>
+    <td> FZILX </td>
+    <td> $1500.00/$10.50 </td>
+    <td> $1550.00/$10.85 </td>
+    <td> $0.00 </td>
+    <td> $50.00 </td>
+  </tr>
+  <tr>
+    <td> FXNAX </td>
+    <td> $1827.00/$10.40 </td>
+    <td> $1777.81/$10.12 </td>
+    <td> $8.26 </td>
+    <td> $-40.93 </td>
+  </tr>
+  <tr>
+    <td> BABA </td>
+    <td> $1050.00/$105.00 </td>
+    <td> $746.70/$74.67 </td>
+    <td> $0.00 </td>
+    <td> $-303.30 </td>
+  </tr>
+  <tr>
+    <td> BYDDY </td>
+    <td> $623.00/$62.30 </td>
+    <td> $544.70/$54.47 </td>
+    <td> $3.31 </td>
+    <td> $-74.99 </td>
+  </tr>
+  <tr>
+    <td> Cash Out Fee </td>
+    <td> $0 </td>
+    <td> $-300 </td>
+    <td> $0 </td>
+    <td> $-300 </td>
+  </tr>
+  <tr>
+    <td> Total </td>
+    <td> $10000 </td>
+    <td> $9866.48 </td>
+    <td> $51.51 </td>
+    <td> $-433.52 </td>
+  </tr>
+</table>
 #### Nov/18 Update
  
 <table style="width:100%">
