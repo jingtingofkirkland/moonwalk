@@ -60,11 +60,12 @@ class GenTable:
         else:
             return f"{self.prefix}{self.intent}<td> {content} </td>\n"
 
-    def gen(self, current_prices=None, date="8/31"):
+    def gen(self, current_prices, date, divs):
         current_prices = current_prices or [156.84, 10.72, 10.14, 92.90, 63.14]
 
         for i, stock in enumerate(self.stocks):
             stock.cur_unit_price = current_prices[i]
+            stock.dividends = divs[i]
 
         records = []
         records.append(Record("Funds", "Initial Value/Unit price", f"Current Value ({date})", "Dividend YTD", "Gain", True))
@@ -79,7 +80,7 @@ class GenTable:
         records.append(Record("Cash Out Fee", "$0", "$-300", "$0", "$-300"))
         total_current_value = sum(stock.cur_value() for stock in self.stocks) - 300
         total_dividend = sum(stock.dividend_total() for stock in self.stocks)
-        total_gain = total_current_value - 10000 - 300
+        total_gain = total_current_value + total_dividend - 10000 - 300
         records.append(Record("Total", "$10000", f"${total_current_value:.2f}", f"${total_dividend:.2f}", f"${total_gain:.2f}"))
 
         sb = []
@@ -94,9 +95,11 @@ class GenTable:
 
         result = f'<table style="width:100%">\n{ "".join(sb) }</table>'
         print(result)
-def req(code):
+def req(code, type):
     # API endpoint (replace with your endpoint)
-    api_endpoint = f"https://query1.finance.yahoo.com/v7/finance/download/{code}?period1={one_day_ago}&period2={current_epoch}&interval=1d&events=history&includeAdjustedClose=true"
+    api_endpoint = f"https://query1.finance.yahoo.com/v7/finance/download/{code}?period1={one_day_ago}&period2={current_epoch}&interval=1d&events={type}&includeAdjustedClose=true"
+    if type =='div':
+        api_endpoint = f"https://query1.finance.yahoo.com/v7/finance/download/{code}?period1=1675252800&period2={current_epoch}&interval=1d&events={type}&includeAdjustedClose=true"
     #print(api_endpoint)
     custom_headers = {
         "User-Agent": ""
@@ -118,10 +121,18 @@ def parse(data):
     index = d_header.index('Close')
     close_price = prices[index]
     return close_price
+def parseDiv(data):
+    yearly_divs = data.split('\n')
+    d_header_str = yearly_divs[0]
+    divs = [float(divs.split(',')[1]) for divs in yearly_divs[1:]]
+    return divs
 
 def getPrice(code):
-    data = req(code)
+    data = req(code, 'history')
     return parse(data)
+def getDivs(code):
+    data = req(code, 'div')
+    return parseDiv(data)
 
 if __name__ == "__main__":
     current_epoch = None
@@ -141,4 +152,5 @@ if __name__ == "__main__":
 
     codes = [ 'FXAIX', 'FZILX', 'FXNAX', 'BABA', 'BYDDY']
     prices = [ float(getPrice(code)) for code in codes]
-    GenTable().gen(prices, today_date)
+    divs = [ getDivs(code) for code in codes]
+    GenTable().gen(prices, today_date, divs)
