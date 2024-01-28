@@ -115,9 +115,10 @@ def req(code, type):
         return None
 
 def parse(data):
-    [d_header_str, prices_str] = data.split('\n')
-    d_header = d_header_str.split(',')
-    prices = prices_str.split(',')
+    prices_str = data.split('\n')
+    # print(prices_str[-1])
+    d_header = prices_str[0].split(',')
+    prices = prices_str[-1].split(',')
     index = d_header.index('Close')
     close_price = prices[index]
     return close_price
@@ -148,7 +149,7 @@ if __name__ == "__main__":
         today_date = parsed_date.date()
 
     # Calculate the epoch timestamp for one day ago
-    one_day_ago = current_epoch - 86400  # 86400 seconds in a day
+    one_day_ago = current_epoch - 86400*7  # 86400 seconds in a day
 
     codes = [ 'FXAIX', 'FZILX', 'FXNAX', 'BABA', 'BYDDY']
     prices = [ float(getPrice(code)) for code in codes]
