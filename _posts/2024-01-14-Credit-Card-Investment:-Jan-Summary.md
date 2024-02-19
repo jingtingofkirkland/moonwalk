@@ -9,49 +9,49 @@ Greetings, everyone! Happy New Year! Here's the latest update on my investment p
 
 ### December
 
-#### Jan/28 
+#### Jan/31 
 <table style="width:100%">
   <tr>
     <th> Funds </th>
     <th> Initial Value/Unit price </th>
-    <th> Current Value (2024-01-28) </th>
+    <th> Current Value (2024-01-31) </th>
     <th> Dividend YTD </th>
     <th> Gain </th>
   </tr>
   <tr>
     <td> FXAIX </td>
     <td> $5000.00/$142.71 </td>
-    <td> $5949.83/$169.82 </td>
+    <td> $5991.87/$171.02 </td>
     <td> $84.12 </td>
-    <td> $1033.95 </td>
+    <td> $1075.99 </td>
   </tr>
   <tr>
     <td> FZILX </td>
     <td> $1500.00/$10.50 </td>
-    <td> $1561.43/$10.93 </td>
+    <td> $1565.71/$10.96 </td>
     <td> $47.14 </td>
-    <td> $108.57 </td>
+    <td> $112.86 </td>
   </tr>
   <tr>
     <td> FXNAX </td>
     <td> $1827.00/$10.40 </td>
-    <td> $1805.92/$10.28 </td>
-    <td> $30.39 </td>
-    <td> $9.31 </td>
+    <td> $1816.46/$10.34 </td>
+    <td> $35.31 </td>
+    <td> $24.77 </td>
   </tr>
   <tr>
     <td> BABA </td>
     <td> $1050.00/$105.00 </td>
-    <td> $740.10/$74.01 </td>
+    <td> $723.20/$72.32 </td>
     <td> $10.00 </td>
-    <td> $-299.90 </td>
+    <td> $-316.80 </td>
   </tr>
   <tr>
     <td> BYDDY </td>
     <td> $623.00/$62.30 </td>
-    <td> $492.80/$49.28 </td>
+    <td> $454.80/$45.48 </td>
     <td> $3.31 </td>
-    <td> $-126.89 </td>
+    <td> $-164.89 </td>
   </tr>
   <tr>
     <td> Cash Out Fee </td>
@@ -63,9 +63,9 @@ Greetings, everyone! Happy New Year! Here's the latest update on my investment p
   <tr>
     <td> Total </td>
     <td> $10000 </td>
-    <td> $10250.08 </td>
-    <td> $174.97 </td>
-    <td> $125.04 </td>
+    <td> $10252.05 </td>
+    <td> $179.88 </td>
+    <td> $131.93 </td>
   </tr>
 </table>
 #### Jan/15 Update
