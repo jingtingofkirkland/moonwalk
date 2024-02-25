@@ -2,7 +2,7 @@
 layout: post
 ---
 
-## November Investment Portfolio Update
+## January Investment Portfolio Update
 
 Greetings, everyone! Happy New Year! Here's the latest update on my investment portfolio for the month of January.
 

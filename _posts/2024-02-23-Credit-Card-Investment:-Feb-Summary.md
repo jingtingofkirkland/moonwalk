@@ -2,14 +2,15 @@
 layout: post
 ---
 
-## November Investment Portfolio Update
+## February Investment Portfolio Update
 
 Greetings, everyone! Feb is marked as the last Month of our Year Investment with Credit card. While even our 0% APR Money haven't expired yet, but I started clean up some of the assets. 
 
 ### Feb
 
 #### Feb/21 
-We clean up the BABA and BYDDY, which is has sink for a while. We will keep the rest untill when we start paying off our credit card balance. 
+We clean up the BABA and BYDDY, which is has sink for a while. We will keep the rest untill when we start paying off our credit card balance, probably March. 
+
 <table style="width:100%">
   <tr>
     <tr>
@@ -71,6 +72,7 @@ We clean up the BABA and BYDDY, which is has sink for a while. We will keep the 
 </table>
 
 ## Summary
+
 We are gaining some money, we will keep the positive assest until end of March. 
 
 Someone may intersted to know how the credit balance affect my credit store, I may share a new post about it. 
