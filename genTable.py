@@ -80,7 +80,7 @@ class GenTable:
         records.append(Record("Cash Out Fee", "$0", "$-300", "$0", "$-300"))
         total_current_value = sum(stock.cur_value() for stock in self.stocks) - 300
         total_dividend = sum(stock.dividend_total() for stock in self.stocks)
-        total_gain = total_current_value + total_dividend - 10000 - 300
+        total_gain = total_current_value + total_dividend - 10000
         records.append(Record("Total", "$10000", f"${total_current_value:.2f}", f"${total_dividend:.2f}", f"${total_gain:.2f}"))
 
         sb = []
